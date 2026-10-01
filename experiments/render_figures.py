@@ -456,7 +456,7 @@ def fig_sample_size_stability(out: Path) -> None:
     _, highs_s = _smooth_xy(ns, highs)
     _, means_s = _smooth_xy(ns, means)
     ax.fill_between(ns_s, lows_s, highs_s, color=PRIMARY, alpha=0.18,
-                     linewidth=0, label=r"95\% bootstrap CI", zorder=2)
+                     linewidth=0, label="95% bootstrap CI", zorder=2)
     ax.plot(ns_s, means_s, color=PRIMARY, linewidth=2.0, zorder=3,
              alpha=0.95, label="dual-side hurt : caught")
     ax.scatter(ns, means, s=70, color=PAPER, edgecolor=PRIMARY_DARK,
