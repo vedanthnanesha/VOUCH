@@ -1,0 +1,13 @@
+# Install a CUDA-enabled PyTorch build for your system first:
+# https://pytorch.org/get-started/locally/
+torch>=2.1
+transformers>=4.49
+accelerate>=0.34
+datasets>=2.20
+huggingface_hub
+pillow
+numpy
+matplotlib
+opencv-python-headless
+easyocr
+pytest

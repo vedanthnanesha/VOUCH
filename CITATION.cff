@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "VOUCH: Counterfactual Contracts for Multi-Agent Coordination"
+type: software
+authors:
+  - family-names: Bhandarkar
+    given-names: Abhay
+  - family-names: Nanesha
+    given-names: Vedanth
+repository-code: "https://github.com/vedanthnanesha/VOUCH"
+url: "https://github.com/vedanthnanesha/VOUCH"
+license: MIT
+date-released: "2026-10-01"
+preferred-citation:
+  type: conference-paper
+  title: "VOUCH: Counterfactual Contracts for Multi-Agent Coordination"
+  authors:
+    - family-names: Bhandarkar
+      given-names: Abhay
+    - family-names: Nanesha
+      given-names: Vedanth
+  year: 2026

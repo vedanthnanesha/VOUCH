@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Datasets, model outputs and figures are generated locally and never committed.
+data/
+results/
+figures/
+figures_better/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
