@@ -1,6 +1,6 @@
 # VOUCH: Counterfactual Contracts for Multi-Agent Coordination
 
-Code for **VOUCH: Counterfactual Contracts for Multi-Agent Coordination** (Abhay Bhandarkar and Vedanth Nanesha, 2026).
+Code for **VOUCH: Counterfactual Contracts for Multi-Agent Coordination** (Abhay Bhandarkar and Vedanth Nanesha), accepted to Findings of AACL-IJCNLP 2026.
 
 VOUCH is a coordination protocol for multi-agent LLM systems in which every agent claim is coupled to a deterministic test that the protocol runs itself. When two agents disagree, the proposing agent picks an intervention from a fixed menu and commits to how the intervention will change its own output (self-side) and, in the dual-side construction, how it will change the other agent's output (cross-side). The protocol applies the intervention, re-queries the agents, and verifies the contract only if every commitment holds. A self-coherent but biased agent can satisfy a self-side commitment by construction; the cross-side commitment closes that gap.
 
