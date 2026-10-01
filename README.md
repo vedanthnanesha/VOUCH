@@ -6,8 +6,6 @@ VOUCH is a coordination protocol for multi-agent LLM systems in which every agen
 
 The experiments cover multimodal classification (Hateful Memes, CrisisMMD, MM-IMDb), code generation (MBPP, HumanEval), and math reasoning (GSM8K, MATH algebra, SVAMP).
 
-This repository contains code and prompt templates only. It does not include any dataset files, images, model outputs, or experiment logs; the scripts below download each benchmark from its source and regenerate every output.
-
 ## Repository contents
 
 - `ccontracts/`: the protocol implementation.
